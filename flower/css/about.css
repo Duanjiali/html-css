@@ -1,0 +1,197 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 16px 'Microsoft YaHei ', 'sans-serif';
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/*默认样式*/
+
+.big {
+    width: 100%;
+    height: 484px;
+    position: relative;
+}
+.nav {
+    width: 100%;
+    height: 79px;
+    background: rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+/*行内元素*/
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+.navList li {
+    width: 86px;
+    height: 100%;
+    float: left;
+}
+.navList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: color linear .5s;
+}
+.navList li a:hover {
+    color: #16b0bc;
+}
+/* nav */
+
+.banner {
+    width: 100%;
+    height: 484px;
+    position: absolute;
+    background: #cccccc;
+    left: 0;
+    top: 0;
+}
+.imgBox {
+    width: 100%;
+    height: 100%;
+}
+.imgBox li, .imgBox li a, .imgBox li a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.imgBox li {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*banner*/
+
+.intro {
+    width: 100%;
+    height: 732px;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+.introContent {
+    width: 1170px;
+    height: 672px;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
+.introContent h3 {
+    font: 36px "Microsoft YaHei ", "sans-serif";
+    text-align: center;
+    margin: 60px auto 80px;
+}
+
+.first {
+    font: 16px "Microsoft YaHei ";
+    text-align: center;
+    margin: 30px auto;
+}
+
+.second {
+    font: 16px "Microsoft YaHei ";
+    text-align: center;
+    margin: 15px auto;
+}
+
+.third {
+    font: 16px "Microsoft YaHei ";
+    text-align: center;
+    line-height: 30px;
+}
+
+.introContent div {
+    width: 530px;
+    height: 340px;
+    margin: 32px auto 0;
+}
+/*intro*/
+
+.bottom {
+    width: 100%;
+    height: 20px;
+    background: white;
+    border-top: 1px solid #cccccc;
+}
+.foot {
+    width: 100%;
+    height: 160px;
+    background: #f5f5f5;
+}
+
+.footContent {
+    width: 1170px;
+    height: 140px;
+    margin: 0 auto;
+    line-height: 1.8em;
+}
+
+.footContent .footList {
+    margin: 0px auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footList a img {
+    width: 30px;
+    height: 26.4px;
+}
+
+.footDesc {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footDesc a {
+    font-size: 16px;
+    color: #62a8ea;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footDesc a:hover {
+    text-decoration: underline;
+}
+
+.footContent .phone {
+    text-align: center;
+    line-height: 1.8;
+    color: #aaaaaa;
+}

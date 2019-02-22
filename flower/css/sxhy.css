@@ -1,0 +1,253 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 16px 'Microsoft YaHei ', 'sans-serif';
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/*默认样式*/
+
+.big {
+    width: 100%;
+    height: 79px;
+}
+
+.nav {
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    border: 1px solid #cccccc;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+
+/*行内元素*/
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+
+.navList li {
+    width: 86px;
+    height: 100%;
+    float: left;
+}
+
+.navList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: color linear .5s;
+}
+
+.navList li a:hover {
+    color: #16b0bc;
+}
+/* nav */
+
+.intro {
+    width: 100%;
+}
+.introContent {
+    width: 100%;
+    height: 1223px;
+}
+.widget {
+    width: 50%;
+    height: 600px;
+    float: left;
+    overflow: hidden;
+    background: #333333;
+}
+.widgetContent {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    color: #fff;
+    box-sizing: border-box;
+}
+.widgetImg {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    color: #fff;
+    box-sizing: border-box;
+}
+.widgetImg img {
+    width: 100%;
+    height: 600px;
+    display: block;
+    transition: all 1s;
+    opacity: 0.8;
+}
+.widgetImg img:hover {
+    width: 100%;
+    height: 600px;
+    max-width: 100%;
+    transform: scale(1.1);
+    color: white;
+    opacity: 0.6;
+}
+.widget:hover .middleTime,.widget:hover .middleTitle{
+    color: white;
+}
+.widget:hover .middleLine{
+    background: rgba(255,255,255,255);
+}
+.widget:hover .middleBtn{
+    border: 1px solid #FFFFFF;
+}
+.widgetMiddle {
+    width: 120px;
+    height: 137px;
+    position: absolute;
+    top: 10px;
+    left: 330px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.middle {
+    width: 120px;
+    height: 137px;
+    margin: 176px auto 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+.middle:hover {
+    width: 120px;
+    height: 137px;
+    max-width: 100%;
+    color: white;
+}
+.middle .middleTime {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.middleLine {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 15px auto;
+    content: "";
+    background:rgba(255, 255, 255, 0.6);
+}
+.middleTitle {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 20px !important;
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.6);
+}
+.middleBtn {
+    width: 60px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 3px;
+    background: none;
+    border: 1px solid rgba(255,255,255,0.6);
+    color: #b0b0b0;
+}
+.middleBtn a {
+    width: 60px;
+    height: 36px;
+    font-size: 14px;
+}
+.middleBtn:hover {
+    background: #FFFFFF;
+}
+/*intro*/
+
+.bottom {
+    width: 100%;
+    height: 20px;
+    background: white;
+    border-top: 1px solid #cccccc;
+}
+
+.foot {
+    width: 100%;
+    height: 160px;
+    background: #f5f5f5;
+}
+
+.footContent {
+    width: 1170px;
+    height: 140px;
+    margin: 0 auto;
+    line-height: 1.8em;
+}
+.footContent .footList {
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+}
+.footList a img {
+    width: 30px;
+    height: 26.4px;
+}
+/*.footList a:last-child{
+    width: 30px;
+    height: 26.4px;
+    display: block;
+}*/
+.footDesc {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footDesc a {
+    font-size: 16px;
+    color: #62a8ea;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footDesc a:hover {
+    text-decoration: underline;
+}
+
+.footContent .phone {
+    text-align: center;
+    line-height: 1.8;
+    color: #aaaaaa;
+}
