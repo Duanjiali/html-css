@@ -1,0 +1,366 @@
+.container {
+    width: 7.02rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+
+.back{
+    width: 7.5rem;
+    height: 3.1rem;
+    background-image: linear-gradient(-30deg, #ff1515 0%, #ff4e00 100%);
+}
+.header{
+    width: 7.02rem;
+    height: 3.1rem;
+    margin: 0 auto;
+}
+.topBar{
+    width: 7.02rem;
+    height: 0.88rem;
+    padding: 0.1rem;
+    display: flex;
+}
+.leftImg {
+    width: 0.6rem;
+    height: 0.6rem;
+    display: flex;
+}
+.leftImg img{
+    display: block;
+    width: 0.3rem;
+    height: 0.4rem;
+}
+.share{
+    width: 0.44rem;
+    height: 0.44rem;
+    border-radius: 50%;
+    background: #f0ad4e;
+    margin-left: 5.68rem;
+}
+.share img{
+    display: block;
+    width: 0.44rem;
+    height: 0.44rem;
+}
+.collect{
+    width: 0.44rem;
+    height: 0.44rem;
+    border-radius: 50%;
+    margin-left: 0.2rem;
+}
+.collect img{
+    display: block;
+    width: 0.44rem;
+    height: 0.44rem;
+}
+.storeinfo{
+    width: 7.02rem;
+    height: 2.22rem;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.photo img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.contact{
+    width: 4.5rem;
+    height: 1.5rem;
+    margin-left: 0.2rem;
+}
+.name{
+    font-size: 0.3rem;
+    color: rgba(255,255,255,0.9);
+}
+.location{
+    height: 0.45rem;
+    display: flex;
+    justify-content: left;
+    margin-top: 0.1rem;
+}
+.locationImg{
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 50%;
+}
+.locationImg img{
+    width: 0.45rem;
+    height: 0.45rem;
+    display: block;
+}
+.locationName{
+    font-size: 0.18rem;
+    color: rgba(255,255,255,0.9);
+}
+.distance{
+    width: 3rem;
+    height: 0.26rem;
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.dis{
+    width: 0.83rem;
+    height: 0.26rem;
+    border-radius: 0.13rem;
+    border: solid 0.01rem #ffffff;
+    text-align: center;
+    font-size: 0.18rem;
+    color: rgba(255,255,255,0.8);
+}
+.arrivePrice{
+    font-size: 0.16rem;
+    color: #ffffff;
+}
+.arrive{
+    width: 0.8rem;
+    height: 0.24rem;
+    background-color: #ffffff;
+    border-radius: 0.12rem;
+    font-size: 0.16rem;
+    color: #ff1515;
+    text-align: center;
+}
+.contact .praise{
+    width: 1.6rem;
+    height: 0.23rem;
+    margin-top: 0.1rem;
+}
+.contact .praise img{
+    width: 1.6rem;
+    height: 0.23rem;
+    display: block;
+}
+/*header*/
+
+.welcome{
+    width: 7.5rem;
+    height: 1rem;
+    background-color: #20202a;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.4rem;
+}
+.dian{
+    width: 0.27rem;
+    height: 0.27rem;
+    background-color: #ffffff;
+    border: 0.06rem solid #52525a;
+    border-radius: 50%;
+    margin-left: 0.23rem;
+}
+.tishi{
+    width: 6.87rem;
+    height: 0.18rem;
+    font-size: 0.18rem;
+    color: #ffffff;
+}
+/*welcome*/
+
+.content{
+    width: 7.5rem;
+    height: 9.8rem;
+    background-color: #ffffff;
+}
+.top{
+    width: 100%;
+    height: 1.3rem;
+    padding: 0.33rem 2.22rem;
+}
+.head{
+    width: 3.05rem;
+    height: 0.64rem;
+    background-color: #f4f4f4;
+    border-radius: 0.32rem;
+    border: solid 0.02rem #b8b8b8;
+    display: flex;
+    /*justify-content: space-around;*/
+}
+.reser{
+    width: 1.5rem;
+    height: 0.48rem;
+    background-color: #ec302e;
+    border-radius: 0.24rem;
+    margin: 0.08rem;
+    font-size: 0.26rem;
+    color: #ffffff;
+    text-align: center;
+}
+.judge{
+    width: 1rem;
+    height: 0.48rem;
+    font-size: 0.26rem;
+    color: #1e1e1e;
+    margin-top: 0.1rem;
+    margin-left: 0.4rem;
+}
+.main {
+    width: 100%;
+    height: 7.6rem;
+    background: aqua;
+    flex-grow: 1;
+    display: flex;
+}
+.left {
+    width: 2.48rem;
+    background: #000000;
+}
+.leftList{
+    width: 1.76rem;
+    margin: 0.36rem auto 0.72rem;
+}
+.item{
+    width: 1.75rem;
+    height: 0.5rem;
+    border-radius: 0.25rem;
+    border: solid 0.02rem #ec302e;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #fc1414;
+    margin: 0.36rem auto 0;
+}
+.item:hover{
+    background: #ec302e;
+    color: #ffffff;
+}
+/*left*/
+
+.right{
+    background: #ffffff;
+    flex-grow: 1;
+}
+.rightList{
+    margin: 0.36rem auto 0;
+}
+.rightItem{
+    width: 4.6rem;
+    height: 1.42rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.1rem 0.8rem 0.07rem rgba(178, 178, 178, 0.46);
+    border-radius: 0.15rem;
+    margin: 0.4rem auto;
+    padding: 0.17rem;
+    display: flex;
+    justify-content: space-around;
+}
+.rightImg {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+}
+.rightImg img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.rightCon{
+    width: 2.5rem;
+    height: 1.09rem;
+}
+.title{
+    font-size: 0.24rem;
+    color: #000000;
+}
+.praise{
+    width: 0.96rem;
+    height: 0.15rem;
+}
+.rightCon .praise img{
+    width: 0.96rem;
+    height: 0.15rem;
+    display: block;
+}
+
+.price{
+    font-size: 0.24rem;
+    color: #ff1515;
+}
+.coll {
+    width: 1rem;
+    height: 0.16rem;
+    display: flex;
+    margin-top: 0.1rem;
+}
+.collnum {
+    font-size: 0.12rem;
+    color: rgba(0, 0, 0, 0.55);
+    line-height: 0.1rem;
+}
+.collImg {
+    width: 0.13rem;
+    height: 0.13rem;
+    background: #ff1515;
+    border: 0.03rem solid #f6866e;
+    border-radius: 50%;
+}
+.rightNum{
+    width: 0.34rem;
+    height: 0.34rem;
+    background-color: #ff1515;
+    border: 0.05rem solid #f96050;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.2rem;
+}
+.rightNum a{
+    color: #FFFFFF;
+}
+/*right*/
+
+.footer {
+    width: 100%;
+    height: 0.98rem;
+    background-color: #ffffff;
+    box-shadow: 0 -0.01rem 0.04rem 0 rgba(178, 178, 178, 0.72);
+    padding: 0.16rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.cartImg{
+    width: 0.66rem;
+    height: 0.66rem;
+    background-color: #484848;
+    border-radius: 50%;
+}
+.cartImg img{
+    width: 0.44rem;
+    height: 0.44rem;
+    display: block;
+    margin: 0.1rem;
+}
+.footerCon{
+    width: 4.66rem;
+    height: 0.66rem;
+}
+.one{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.8);
+}
+.two{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.8);
+    margin-top: 0.05rem;
+}
+.order{
+    width: 1.15rem;
+    height: 0.41rem;
+    background-color: #323232;
+    border-radius: 0.21rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #ffffff;
+    margin-top: 0.2rem;
+}
+/*content*/
+

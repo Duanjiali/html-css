@@ -1,0 +1,133 @@
+.container {
+    width: 7.02rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 7.02rem;
+    height: 0.88rem;
+    margin: 0 auto;
+}
+
+.headImg {
+    width: 0.6rem;
+    height: 0.6rem;
+    /*margin: 0.1rem;*/
+    float: left;
+}
+
+.headImg img {
+    width: 0.3rem;
+    height: 0.5rem;
+    display: block;
+    margin-top: 0.1rem;
+}
+
+/*header*/
+
+.content {
+    width: 7.02rem;
+    height: 5rem;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 0.36rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.line {
+    width: 7.02rem;
+    height: 0.01rem;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 0.21rem;
+}
+
+.showPrice {
+    width: 7.02rem;
+    height: 0.4rem;
+    margin-top: 0.1rem;
+    display: flex;
+}
+
+.total {
+    font-size: 0.24rem;
+    color: rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+}
+
+.money {
+    font-size: 0.18rem;
+    color: #ff1515;
+    margin-top: 0.1rem;
+}
+
+.price {
+    font-size: 0.36rem;
+    color: #ff260f;
+}
+
+.bankcard {
+    width: 5.93rem;
+    height: 3.27rem;
+    margin: 0.38rem auto 0;
+    border-radius: 0.2rem;
+}
+
+.bankcard img {
+    width: 5.93rem;
+    height: 3.27rem;
+}
+
+/*content*/
+
+.footer {
+    width: 7.5rem;
+    height: 8.25rem;
+    background-image: url("../images/succcessbj.png");
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    box-shadow: 0 -0.14rem 0.32rem 0 rgba(171, 171, 171, 0.32);
+    margin: -0.8rem auto 0;
+    padding-top: 1.2rem;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+.footerFinish {
+    font-size: 0.24rem;
+    color: #000000;
+    text-align: center;
+}
+.backImg {
+    width: 7.5rem;
+    height: 6.67rem;
+    margin: 0 auto;
+    padding-top: 0.3rem;
+}
+.figureImg {
+    width: 2.28rem;
+    height: 2.31rem;
+    margin: 0 auto;
+}
+.figureImg img {
+    width: 2.28rem;
+    height: 2.31rem;
+}
+.footer p {
+    font-size: 0.24rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-top: 0.6rem;
+}
+.item {
+    width: 0.25rem;
+    height: 0.25rem;
+    background: #ffffff;
+    border-radius: 50%;
+    margin: 0.2rem auto 0;
+}
+/*footer*/

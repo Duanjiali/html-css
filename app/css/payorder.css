@@ -1,0 +1,355 @@
+.backg {
+    width: 7.5rem;
+    background-image: linear-gradient(-30deg, #ff1515 0%, #ff4e00 100%);
+}
+
+.container {
+    width: 7.02rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*居中效果*/
+.header {
+    width: 7.02rem;
+    height: 0.88rem;
+    margin: 0 auto;
+}
+.left {
+    width: 0.6rem;
+    height: 0.6rem;
+    margin: 0.15rem;
+}
+.left img{
+    width: 0.3rem;
+    height: 0.4rem;
+    display: block;
+}
+.storeName {
+    width: 5.3rem;
+    height: 0.6rem;
+    font-size: 0.36rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.right {
+    width: 0.45rem;
+    height: 0.45rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.right img{
+    width: 0.35rem;
+    height: 0.35rem;
+    display: block;
+    margin: 0.1rem auto;
+}
+/*header*/
+
+.productInfo {
+    width: 7.02rem;
+    height: 3.71rem;
+    background-color: #ffffff;
+    margin: 0.47rem auto 0.38rem;
+}
+
+.top {
+    width: 7.02rem;
+    height: 1.84rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topImg {
+    width: 1.08rem;
+    height: 1.04rem;
+    border-radius: 50%;
+}
+.topImg img{
+    width: 1.1rem;
+    height: 1.06rem;
+}
+.foodAll {
+    width: 3.5rem;
+    height: 1.15rem;
+}
+.foodTitle {
+    width: 3rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+.foodNum {
+    width: 3rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+.rightNum {
+    width: 0.34rem;
+    height: 0.34rem;
+    background-color: #ff1515;
+    border: 0.05rem solid #f96050;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.18rem;
+    display: inline-block;
+}
+.num{
+    width: 0.16rem;
+    height: 0.16rem;
+    font-size: 0.2rem;
+    color: #010101;
+    display: inline-block;
+}
+.foodallPrice{
+    width: 1.5rem;
+    height: 0.15rem;
+    font-size: 0.2rem;
+    color: #ff1515;
+}
+.foodPrice{
+    width: 1rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    color: #ff1515;
+}
+
+.line {
+    width: 6.61rem;
+    height: 0.02rem;
+    background: rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.bottom {
+    width: 7.02rem;
+    height: 1.84rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*productInfo*/
+
+.total {
+    width: 7.02rem;
+    height: 0.54rem;
+    margin: 0 auto;
+}
+.one {
+    width: 7.02rem;
+    height: 0.25rem;
+}
+.totalPay {
+    font-size: 0.18rem;
+    color: #ffffff;
+    float: left;
+    display: inline-block;
+}
+.price {
+    font-size: 0.24rem;
+    color: #ffffff;
+    float: right;
+    display: inline-block;
+}
+.two {
+    width: 7.5rem;
+    height: 0.25rem;
+}
+.rmb {
+    font-size: 0.24rem;
+    color: #ffffff;
+    float: left;
+    display: inline-block;
+}
+
+.system {
+    font-size: 0.18rem;
+    color: #ffffff;
+    float: right;
+    display: inline-block;
+}
+
+/*total*/
+
+.orderInfo {
+    width: 7.02rem;
+    height: 8.07rem;
+    background-color: #ffffff;
+    margin: 0.3rem auto 0;
+    padding-top: 0.43rem;
+}
+.infoContent {
+    width: 6.7rem;
+    height: 6.17rem;
+    margin: 0 auto;
+}
+.ordernum {
+    width: 6.7rem;
+    height: 1.06rem;
+    border-bottom: 0.02rem solid rgba(0, 0, 0, 0.1);
+    line-height: 0.53rem;
+    /*margin-bottom: 0.1rem;*/
+}
+.dian {
+    width: 0.13rem;
+    height: 0.13rem;
+    background: #ff1515;
+    border: 0.03rem solid #f6866e;
+    border-radius: 50%;
+    display: inline-block;
+}
+.title {
+    font-size: 0.3rem;
+    color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+}
+.orderRight{
+    width: 2.17rem;
+    height: 0.2rem;
+    font-size: 0.26rem;
+    color: #ff0000;
+    float: right;
+    margin-top: 0.3rem;
+}
+.orderRight img{
+    width: 0.2rem;
+    height: 0.3rem;
+    margin-left: 0.1rem;
+}
+.deliverytime {
+    width: 6.7rem;
+    height: 0.84rem;
+    border-bottom: 0.01rem solid rgba(0, 0, 0, 0.1);
+    line-height: 0.42rem;
+}
+.deliverytime .orderRight{
+    width: 0.99rem;
+    height: 0.4rem;
+    background-color: #ff7538;
+    border-radius: 0.16rem;
+    border: solid 0.02rem #ffa37a;
+    font-size: 0.16rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.35rem;
+}
+.servicetime {
+    width: 6.7rem;
+    height: 0.85rem;
+    border-bottom: 0.01rem solid rgba(0, 0, 0, 0.1);
+    line-height: 0.43rem;
+}
+.servicetime .orderRight{
+    width: 0.99rem;
+    height: 0.34rem;
+    background-color: #ffffff;
+    border-radius: 0.17rem;
+    border: solid 0.02rem #aaaaaa;
+    font-size: 0.16rem;
+    color: #ff7538;
+    text-align: center;
+    line-height: 0.27rem;
+}
+.address {
+    width: 6.7rem;
+    height: 1.14rem;
+    border-bottom: 0.01rem solid rgba(0, 0, 0, 0.1);
+    line-height: 0.57rem;
+}
+.address .orderRight{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+}
+.address .orderRight img{
+    width: 0.2rem;
+    height: 0.3rem;
+    margin-left: 0.1rem;
+    margin-bottom: 0.03rem;
+}
+.typepay {
+    width: 6.7rem;
+    height: 0.85rem;
+    border-bottom: 0.01rem solid rgba(0, 0, 0, 0.1);
+    line-height: 0.43rem;
+}
+.typepay .orderRight{
+    width: 0.99rem;
+    height: 0.4rem;
+    background-color: #ffffff;
+    border-radius: 0.17rem;
+    border: solid 0.02rem #aaaaaa;
+    font-size: 0.16rem;
+    color: #ff4e00;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.contact {
+    width: 6.7rem;
+    height: 0.85rem;
+    border-bottom: 0.01rem solid rgba(0, 0, 0, 0.1);
+    line-height: 0.43rem;
+}
+.contact .orderRight{
+    width: 1.66rem;
+    height: 0.18rem;
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.8);
+}
+.remark {
+    width: 6.7rem;
+    height: 0.58rem;
+    border: 0.02rem solid rgba(255, 255, 255, 0.3);
+    line-height: 0.3rem;
+}
+.remark .orderRight{
+    width: 0.39rem;
+    height: 0.39rem;
+    border-radius: 50%;
+}
+.servicetime .dian{
+    background: #ac6a00;
+    border: 0.03rem solid #ffb948;
+}
+.address .dian{
+    background: #38852e;
+    border: 0.03rem solid #9eff69;
+}
+.typepay .dian{
+    background: #003bff;
+    border: 0.03rem solid #7e9cff;
+}
+.contact .dian{
+    background: #c600ff;
+    border: 0.03rem solid #de6cff;
+}
+.remark .dian{
+    background: #ff0066;
+    border: 0.03rem solid #ff97c1;
+}
+.sure {
+    width: 1.79rem;
+    height: 0.53rem;
+    background-color: #f8601c;
+    border-radius: 0.27rem;
+    border: solid 0.01rem #ffa37a;
+    margin: 0.5rem auto 0;
+    font-size: 0.26rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    line-height: 0.5rem;
+}
+.sure a{
+    color: #ffffff;
+}
+/*orderInfo*/
